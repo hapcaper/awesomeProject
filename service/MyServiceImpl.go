@@ -13,3 +13,11 @@ func (myServiceImpl MyServiceImpl) FindSomething() []string {
 func (myServiceImpl MyServiceImpl) AddSomething(var1 string, var2 int) {
 	fmt.Println("addSomething invoked....", var1, var2)
 }
+
+func (myServiceImpl MyServiceImpl) Insert() {
+	fmt.Println("insert sth")
+}
+
+func (myServiceImpl MyServiceImpl) SelfFunc(str string) {
+	fmt.Println("SelfFunc exc", str)
+}

@@ -5,3 +5,11 @@ type MyService interface {
 
 	AddSomething(string, int)
 }
+
+type MyDao interface {
+	Insert()
+}
+
+type SelfFuncInterface interface {
+	SelfFunc(str string)
+}
